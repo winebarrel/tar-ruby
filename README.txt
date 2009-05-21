@@ -2,6 +2,10 @@
 
 Copyright (c) 2008 SUGAWARA Genki <sgwr_dts@yahoo.co.jp>
 
+== Notice!
+
+<b>Please use {Libarchive/Ruby}[http://libarchive.rubyforge.org/].</b>
+
 == Description
 
 Ruby bindings for libtar.
@@ -69,6 +73,7 @@ gem install tarruby
     #Tar.bzopen('foo.tar.bz2', ...
 
 == License
+
     Copyright (c) 2008 SUGAWARA Genki <sgwr_dts@yahoo.co.jp>
     All rights reserved.
     
@@ -80,7 +85,7 @@ gem install tarruby
         * Redistributions in binary form must reproduce the above copyright notice, 
           this list of conditions and the following disclaimer in the documentation 
           and/or other materials provided with the distribution.
-        * The names of its contributors may be used to endorse or promote products 
+        * The names of its contributors may not be used to endorse or promote products 
            derived from this software without specific prior written permission.
     
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
@@ -96,6 +101,7 @@ gem install tarruby
     DAMAGE.
 
 === libtar
+
 TAR/Ruby contains libtar.
 
 * libtar is a C library for manipulating POSIX tar files.
